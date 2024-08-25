@@ -49,6 +49,6 @@ app.get('/bfhl', (req, res) => {
 });
 
 
-app.listen(`https://bajajserver.vercel.app/${PORT}`, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+app.listen(`https://bajajserver.vercel.app`, () => {
+  console.log(`Server is running`);
 });
